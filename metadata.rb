@@ -6,3 +6,4 @@ description      'Installs/Configures promet_openssh'
 long_description IO.read(File.join(File.dirname(__FILE__), 'README.md'))
 version          '0.2.0'
 depends          'apt'
+depends          'openssh', '= 1.3.2'
