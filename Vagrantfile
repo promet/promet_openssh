@@ -88,7 +88,7 @@ Vagrant.configure("2") do |config|
 
     chef.run_list = [
         "recipe[apt]",
-        "recipe[promet_openssh]"
+        "recipe[openssh]"
     ]
   end
 end
